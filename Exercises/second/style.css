@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* OTHER */
+
+main {
+    height: 80vh;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inner-box-text {
+    background-color: black;
+    position: absolute;
+    width: 300px;
+    top: 20%;
+    right: 20%;
+    color: white;
+} 
+
+#links {
+    list-style: none;
+} 
+
+#links li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
