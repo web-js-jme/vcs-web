@@ -1,0 +1,77 @@
+body {
+    background-color: #f2e9d8;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ background-color: rgba(0, 0, 0, 0.2);
+ font-weight: 700;
+ text-transform: uppercase;
+ font-size: 3em;
+ text-align: center;
+}
+
+table {
+    background-image: url('./paveiksliukai/pexels-photo-196667.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 500px;
+    height: 200px;
+}
+
+table td {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+table, td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+.langeliai {
+    background-color: rgba(0, 0, 0, 100);
+    color: white;
+}
+
+#pirmas-paragrafas {
+    color: aqua;
+}
+
+a {
+    color: blueviolet;
+
+}
+
+a:hover {
+    color: #2d383a;
+}
+p {
+    text-align: justify;
+}
+
+#pirmas-paragrafas {
+    color: grey;
+    font-size: 1.5em;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+img {
+    height: 200px;
+}
+
+ul li {
+    list-style: square;
+}
+
+/* 
+Added during the lecture
+footer > p {
+    font-size: var(--def-size);
+}
+
+footer span {
+    font-size: var(--def-size);
+    margin: var(--def-size);
+} */
