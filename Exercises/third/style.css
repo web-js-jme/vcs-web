@@ -1,0 +1,30 @@
+
+img {
+    width: 300px;
+    height: 150px;
+}
+
+.block {
+    width: 300px;
+    height: 400px;  
+    background-color: bisque;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.upper-block {
+    margin-bottom: 20px;
+}
+
+.bottom-block {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.author {
+    background-color: white;
+    width: 200px;
+    padding: 2px;
+}
+
