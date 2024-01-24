@@ -1,0 +1,46 @@
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row {
+    display: inherit;
+    justify-content: start;
+    background-color: orange;
+}
+
+.second-row{
+    display: inherit;
+    justify-content: end;
+    background-color: green;
+}
+
+.third-row {
+    display: inherit;
+    justify-content: start;
+    background-color: orange;
+    padding: 20px 0 20px 0;
+}
+
+.four-row {
+    display: inherit;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.fifth-row {
+    display: inherit;
+    justify-content: end;
+    background-color: red;
+    padding-top: 50px;
+}
+
+p {
+    background-color: white;
+    text-align: justify;
+    width: 150px;
+    height: 100px;
+    font-size: 12px;
+    margin: 10px;
+}
