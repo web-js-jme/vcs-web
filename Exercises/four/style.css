@@ -1,0 +1,99 @@
+body {
+    background-color: #959393;
+}
+
+main {
+    margin: 0 auto;
+    width: 276px;
+}
+
+/* PAGE BLOCKS */
+
+.block {
+    width: 276px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px #606170;
+}
+
+.upper-block {
+    width: inherit;
+    position: relative;
+    padding: 10px;
+}
+
+.bottom-block {
+    width: inherit;
+}
+
+/* UPPER PART OF BLOCK */
+
+img {
+    width: 276px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.date-container {
+    width: 56px;
+    height: 56px;
+    bottom: -28px;
+    right: 15px;
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+}
+
+.day {
+    width: 28px;
+    height: 28px;
+}
+
+.month {
+    width: 25px;
+    height: 22px;
+}
+
+/* BOTTOM PART OF BLOCK */
+
+.context {
+    width: 250px;
+    height: 74px;
+    gap: 4px;
+}
+
+.type {
+    width: 83px;
+    height: 22px;
+}
+
+.title {
+    width: 250px;
+    height: 48px;
+}
+
+
+.buttons-container {
+    width: 76px;
+    height: 64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 16px;
+    gap: 12px;
+}
+
+.first-button, .second-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #959393;
+}
+
+.button-context {
+    width: 16px;
+    height: 16px;
+    top: 8px;
+    left: 8px;
+}

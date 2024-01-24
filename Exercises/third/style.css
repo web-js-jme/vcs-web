@@ -1,3 +1,7 @@
+body, main {
+    /* DOES NOT WORK, why? */
+align-items: center;
+}
 
 img {
     width: 300px;

@@ -1,0 +1,53 @@
+main {
+    font-size: 14px;
+    background-color: orange;
+}
+
+.two-colums {
+    display: flex;
+    padding: 0 0 10px 10px;
+}
+
+.second-row-block {
+    background-color: red;
+    width: 100%;
+    height: auto;
+}
+
+.second-row {
+    display: flex;
+}
+
+.second-row p {
+    background-color: white;
+    margin: 20px;
+}
+
+.third-row-block {
+    background-color: white;
+    margin: 20px 60px 20px 60px;
+
+}
+
+.third-row {
+    display: flex;
+}
+
+.third-row  p{
+   padding: 20px 20px 20px 20px;
+}
+
+.four-row-block {
+    background-color: orangered;
+
+}
+
+.four-row {
+    display: flex;
+}
+
+.four-row p {
+    background-color: orange;
+    margin: 30px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
+}
