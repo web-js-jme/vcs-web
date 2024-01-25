@@ -1,4 +1,6 @@
-
+body {
+    background-color: white;
+}
 main {
     background-color: bisque;
 }
@@ -8,17 +10,73 @@ main {
     justify-content: space-between;
 }
 
-.upper-container  p {
-    /* justify-content: space-between; */
-}
-
 .list-of-links {
     display: flex;
     flex-direction: row;
-  
+    font-size: 12px;
+    align-items: center;
 }
 
 li {
     margin-right: 20px;
     display: inherit;
+}
+
+.context {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+
+}
+
+.context-text-block {
+    width: 600px;
+}
+
+.context p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-context {    
+    display: flex;  
+    justify-content: space-around;
+    background-color: blueviolet;
+    color: white;
+}
+
+.footer-context2 {  
+    background-color: beige;
+    color: black;
+    font-size: 12px;
+    display: flex;  
+    justify-content: space-around;
+}
+
+.card-list {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+
+    /* GRID OPTIOON */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.card {
+    font-size: 12px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid grey;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+
+    /* GRID STYLE */
 }
