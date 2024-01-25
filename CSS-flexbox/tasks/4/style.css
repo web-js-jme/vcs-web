@@ -1,0 +1,83 @@
+
+body {
+    background-color: black;
+}
+
+.upper-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.list-of-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    /* align-items: center; */
+}
+
+div a {
+    color:white;
+    margin-right: 20px;
+}
+
+.upper-main-context {
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-context-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-context {
+    background-color: yellowgreen;
+    padding: 10px 10px 10px 10px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+
+    /* GRID OPTIOON */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    background-color: blanchedalmond;
+}
+
+.card {
+    font-size: 12px;
+    height: 200px;
+    width: 250px;    
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+
+    /* GRID STYLE */
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.footer-container > div {
+    width: 30%;
+}
