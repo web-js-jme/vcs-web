@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header > img {
+    width: 50px;
+    height: 50px;
+}
+
+.context-box {
+    width: 100%;
+    background-color: chocolate;
+    padding: 30px;
+}
+
+.context-box > div {
+    display: flex;
+    flex-direction: row;   
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+}
+
+.title-text {
+   position: absolute;
+}
+
+.bottom-text-context {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom-text-context > div {
+    background-color: white;    
+    width: 300px;
+}
+
+.bottom-text-context > img {
+    width: 400px;
+    height: 100%;
+}
+
+main {
+    position: relative; 
+    background-color: pink;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+footer img {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}

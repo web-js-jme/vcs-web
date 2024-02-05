@@ -1,0 +1,43 @@
+.image-container {
+    position: relative;
+    padding: 20px;
+  }
+
+.image-container-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   color: white;
+}
+
+.image-container-text2 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+   
+}
+
+.image-container-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.center-container {
+    padding: 150px;
+    background-color: aliceblue;
+}
