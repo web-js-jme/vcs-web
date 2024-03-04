@@ -62,3 +62,10 @@ function addToHistory() {
     };
     histiry.push(histotyItem);
 }
+
+
+document.getElementById('show-history').onclick = function() {
+    let formatted = history.map(x => `<p> ${x.firstNumber} ${x.second_number} = ${x.answer} </p>`);
+    let historyBlock = document.querySelector('.calculator .history-items');
+    historyBlock.innerHTML = formatted.join('');
+}
