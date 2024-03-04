@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kepykla</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js" defer></script>
+    </head>
+    <body>
+        <header class="block-wrapper">
+            <h1>Kepykla</h1>
+        </header>
+        <div class="block-wrapper">
+            <h2>Darbo valandos</h2>
+            <div class="darboo_dienom">
+                <ul>
+                    <li><strong>Pirmadienis:</strong> 8:00h - 19:00h</li>
+                    <li><strong>Antradienis:</strong> 8:00h - 19:00h</li>
+                    <li><strong>Treciadienis:</strong> 8:00h - 19:00h</li>
+                    <li><strong>Ketvirtadienis:</strong> 8:00h - 19:00h</li>
+                    <li><strong>Penktadienis:</strong> 8:00h - 19:00h</li>
+                </ul>
+
+            </div>
+            <div class="savaitgalis">
+                <ul>
+                    <li><strong>Sestadienis:</strong> 12:00h - 17:00h </li>
+                    <li><strong>Sekmadienis:</strong> 12:00h - 17:00h</li>
+                </ul>
+            </div>
+            <div class="darbo-laiko-toggle">
+                <label class="switch">
+                    <input type="checkbox" onchange="toggleVisibility()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <div class="info-wrapper block-wrapper">
+            <h2>Pradinė informacija</h2>
+            <div class="input-wrapper">
+                <label for="employee-count">Darbuotojų skaičius:</label>
+                <input type="number" min="0" step="1" value="0"
+                    id="employee-count" oninput="validateNumberInput(this)">
+                <span class="error">Darbuotojų skaičius negali būti neigiamas.</span>
+            </div>
+            <div class="input-wrapper">
+                <label for="loaves-per-employee">Duonos kepalų per dieną (vienas
+                    darbuotojas):</label>
+                <input type="number" min="0" step="1" value="0"
+                    id="loaves-per-employee" oninput="validateNumberInput(this)">
+            </div>
+            <div class="input-wrapper">
+                <label for="order-count">Užsakymų kiekis:</label>
+                <input type="number" min="0" step="1" value="0" id="order-count"
+                    oninput="validateNumberInput(this)">
+            </div>
+            <div class="hr-wrapper">
+                <div class="hr-row">
+                    <hr>
+                </div>
+            </div>
+            <div class="input-wrapper">
+                <label for="order-count">Kaina uz kepala</label>
+                <input type="number" min="0" step="1" value="0" id="order-count"
+                    oninput="validateNumberInput(this)">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="order-count">Kiekis</label>
+                <input type="number" min="0" step="1" value="0" id="order-count"
+                    oninput="validateNumberInput(this)">
+            </div>
+            <div class="buttons-container">
+                <button id="calculate">Skaičiuoti</button>
+                <button id="reset">Iš naujo</button>
+            </div>
+        </div>
+        <div class="calc-wrapper block-wrapper" id="bottom">
+            <div class="row">
+                <h2>Skaičiavimai</h2>
+                <div id="results">
+                    <p>Kol kas nieko nėra.</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

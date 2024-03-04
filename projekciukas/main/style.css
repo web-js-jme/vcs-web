@@ -1,0 +1,57 @@
+body {
+  background-color: #6a5acd;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  color: bisque;
+  margin: 30px;
+}
+
+.image-block {
+  display: flex;
+  justify-content: center;
+}
+
+.calculation-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first-block {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.price input {
+  height: 30px;
+  width: 290px;
+  border-radius: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  border-radius: 10px;
+  background-color: orangered;
+  box-shadow: 2px 2px orange;
+  height: 30px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+.total-amount {
+  display: flex;
+  justify-content: center;
+}
