@@ -1,0 +1,44 @@
+{
+    "countries": [
+      {
+        "name": "United Kingdom",
+        "cities": ["London", "Manchester", "Edinburgh", "Birmingham", "Liverpool"]
+      },
+      {
+        "name": "France",
+        "cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice"]
+      },
+      {
+        "name": "Germany",
+        "cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt"]
+      },
+      {
+        "name": "Italy",
+        "cities": ["Rome", "Milan", "Naples", "Turin", "Florence"]
+      },
+      {
+        "name": "Spain",
+        "cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao"]
+      },
+      {
+        "name": "Netherlands",
+        "cities": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht", "Eindhoven"]
+      },
+      {
+        "name": "Belgium",
+        "cities": ["Brussels", "Antwerp", "Ghent", "Bruges", "Liege"]
+      },
+      {
+        "name": "Switzerland",
+        "cities": ["Zurich", "Geneva", "Basel", "Bern", "Lausanne"]
+      },
+      {
+        "name": "Sweden",
+        "cities": ["Stockholm", "Gothenburg", "Malmo", "Uppsala", "Linkoping"]
+      },
+      {
+        "name": "Norway",
+        "cities": ["Oslo", "Bergen", "Stavanger", "Trondheim", "Tromso"]
+      }
+    ]
+  }

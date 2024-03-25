@@ -39,10 +39,19 @@ body {
     width: 100%;
 }
 
-.portions-container, .result-container {
+.portions-container {
     height: 200px;
     width: 100%;
     background-color: beige;
+    padding: 20px;
+}
+
+.result-container {
+  height: 300px;
+  width: 100%;
+  background-color: beige;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
 .container {

@@ -3,7 +3,6 @@ const cards = document.querySelectorAll('.card');
 const checkmarks = document.querySelectorAll('.card .checkmark');
 const recipe = document.querySelector('.ingredients-list');
 recipe.innerHTML = '<p> Nothing to display </p>';
-
 const receptai = 
 [ 
  {
@@ -58,7 +57,7 @@ cards.forEach(( element, index ) => {
 });
 
 
-const selectedCountOfPeople = document.querySelector('.selected-value label');
+const selectedCountOfPeople = document.getElementById('portion-count');
 selectedCountOfPeople.value = 0;
 
 function displaySelectedValue(value) {

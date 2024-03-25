@@ -24,7 +24,6 @@
                 </div>
                 <div class="card">
                     <div class="container">
-
                         <span class="checkmark"></span>
                     </div>
                     <img src="./images/tortas_su_melynemis.png">
@@ -47,10 +46,10 @@
             <div class="portions-container">
                 <h2>Kiek porciju gaminsite?</h2>
                 <div class="slider">
-
-                    <input type="range" id="volume" name="volume" min="0"
-                        max="10" />
-                    <label for="volume">0</label>
+                    <input type="range" name="weight" id="range_weight"
+                        value="1" min="1" max="10"
+                        oninput="range_weight_disp.value = range_weight.value">
+                    <output id="portion-count"></output>
                 </div>
             </div>
             <div class="result-container">
